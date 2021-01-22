@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TestTask</string>
+
+    <string name="nav_specialties">Специальности</string>
+
+    <string name="specialties_retry_message">Не удалось загрузить данные</string>
+    <string name="specialties_retry_action">Повторить</string>
+
+    <string name="specialty_retry_message">Не удалось загрузить данные</string>
+    <string name="specialty_retry_action">Повторить</string>
+    <string name="specialty_employee_age_placeholder">-</string>
+
+    <string name="employee_age_placeholder">-</string>
+    <string name="employee_birthday_placeholder">-</string>
+
+</resources>

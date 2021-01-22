@@ -1,0 +1,23 @@
+plugins {
+    id 'kotlin'
+    id 'kotlin-kapt'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies {
+    implementation project(':domain')
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    api 'com.google.dagger:dagger:2.24'
+    kapt 'com.google.dagger:dagger-compiler:2.24'
+
+    api 'com.github.terrakok:cicerone:6.6'
+    api "com.github.moxy-community:moxy-ktx:2.1.2"
+    api 'com.github.moxy-community:moxy-android:2.2.1'
+    kapt "com.github.moxy-community:moxy-compiler:2.1.2"
+}
